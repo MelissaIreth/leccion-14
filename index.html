@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Formulario</title>
+</head>
+<body>
+   <h1 align = "center"><b>Formulario de Datos</b></h1>
+     <form action = "" align = "center">
+     <p>
+        <label for = "nombre"> Nombre </label><br>
+        <input type = "text" name = "" required = "" placeholder = "Escriba su nombre">
+     </p>
+        <label for = "apellido"> Apellido </label><br>
+        <input type = "text" name = "" required = "" placeholder = "Escriba su apellido">
+     </p>
+        <label for = "telefono"> Teléfono </label><br>   
+        <input type = "fono" name = "telefono" pattern = "[0-9+]{12}" required = "" title = "Sólo digitos" placeholder = "Ej: +569 12345678">
+     </p>
+        <label for = "autos"> Escoge tu carro para continuar</label><br>
+      <select name = "" required = "" placeholder = "Escoge tu carro">
+        <option disabled = "disabled">Escoge un carro</option>   
+        <option value = "uno"> Volvo </option>
+        <option value = "dos"> Saab </option>
+        <option value = "tres"> Mercedes </option>
+        <option value = "cuatro"> Audi </option>
+      </select><br><br>     
+     <p>  
+        <label for = "email"> Email </label><br>
+        <input type = "email" name ="email" required = "" pattern = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" placeholder = "ejemplo@mail.com">
+     </p>
+        <label for = "pass"> Crea tu contraseña </label><br>
+        <input type = "password" name = "" pattern = "^[a-zA-Z0-0.!#$%&'*+/=?^_`{|}~-] {6,}" required = "" title = "6 o más caracteres" placeholder = "6 o más caracteres">
+     </p>
+        <button id="enviar" type="button" name="button">Send</button>
+        </form action> 
+<script src="assets/js/javascript.js"></script>   
+</body>
+</html>
